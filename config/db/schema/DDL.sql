@@ -1,0 +1,22 @@
+CREATE DATABASE collection;
+
+
+\c collection;
+
+CREATE TABLE songs (
+  id UUID PRIMARY KEY,
+  name TEXT NOT NULL,
+  artist TEXT NOT NULL,
+  gender TEXT NOT NULL
+);
+
+
+CREATE TABLE users (
+  id SERIAL PRIMARY KEY,
+  nombre VARCHAR(50) NOT NULL,
+  apellido VARCHAR(50) NOT NULL,
+  email VARCHAR(50) NOT NULL,
+  password VARCHAR(100) NOT NULL,
+  create_at TIMESTAMP NOT NULL DEFAULT NOW(),
+  update_at TIMESTAMP NOT NULL DEFAULT NOW()
+);

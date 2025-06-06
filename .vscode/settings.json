@@ -1,0 +1,29 @@
+{
+  "workbench.colorCustomizations": {
+    "activityBar.activeBackground": "#e4488b",
+    "activityBar.background": "#e4488b",
+    "activityBar.foreground": "#e7e7e7",
+    "activityBar.inactiveForeground": "#e7e7e799",
+    "activityBarBadge.background": "#72de21",
+    "activityBarBadge.foreground": "#15202b",
+    "commandCenter.border": "#e7e7e799",
+    "sash.hoverBorder": "#e4488b",
+    "statusBar.background": "#d92070",
+    "statusBar.foreground": "#e7e7e7",
+    "statusBarItem.hoverBackground": "#e4488b",
+    "statusBarItem.remoteBackground": "#d92070",
+    "statusBarItem.remoteForeground": "#e7e7e7",
+    "titleBar.activeBackground": "#d92070",
+    "titleBar.activeForeground": "#e7e7e7",
+    "titleBar.inactiveBackground": "#d9207099",
+    "titleBar.inactiveForeground": "#e7e7e799"
+  },
+  "peacock.color": "#d92070",
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": false,
+    "markdown": true,
+    "scminput": false
+  },
+  "postman.settings.dotenv-detection-notification-visibility": false
+}
